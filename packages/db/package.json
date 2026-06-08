@@ -1,0 +1,20 @@
+{
+	"name": "@ultra/db",
+	"version": "0.0.1",
+	"main": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"scripts": {
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit migrate",
+		"db:studio": "drizzle-kit studio"
+	},
+	"dependencies": {
+		"@neondatabase/serverless": "^0.10.0",
+		"drizzle-orm": "^0.38.0"
+	},
+	"devDependencies": {
+		"drizzle-kit": "^0.29.0"
+	}
+}
