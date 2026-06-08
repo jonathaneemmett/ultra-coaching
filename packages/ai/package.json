@@ -1,0 +1,11 @@
+{
+	"name": "@ultra/ai",
+	"version": "0.0.1",
+	"main": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"dependencies": {
+		"@anthropic-ai/sdk": "^0.30.0"
+	}
+}

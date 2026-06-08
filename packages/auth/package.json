@@ -1,0 +1,12 @@
+{
+	"name": "@ultra/auth",
+	"version": "0.0.1",
+	"main": "./src/index.ts",
+	"exports": {
+		".": "./src/index.ts"
+	},
+	"dependencies": {
+		"@clerk/nextjs": "^6.0.0",
+		"@ultra/db": "workspace:*"
+	}
+}
