@@ -1,13 +1,11 @@
-# Dependencies                                                                     
-node_modules                                           
-.pnpm-store
+# Dependencies
+node_modules
 
 # Build outputs
 .next
-dist                                                                               
-.turbo
-                                                                                    
-# Environment                                          
+dist
+
+# Environment
 .env
 .env.local
 .env.*.local
@@ -17,4 +15,7 @@ dist
 
 # Editors
 .vscode
-.idea                                    
+.idea
+
+# Local planning
+ROADMAP.md

@@ -1,18 +1,33 @@
 {
-	"name": "ultra-coaching",
-	"private": true,
-	"packageManager": "pnpm@10.0.0",
-	"scripts": {
-		"build": "turbo build",
-		"dev": "turbo dev",
-		"lint": "turbo lint",
-		"typecheck": "turbo typecheck"
-	},
-	"devDependencies": {
-		"turbo": "latest",
-		"typescript": "^5.0.0"
-	},
-	"dependencies": {
-		"pnpm": "^11.5.2"
-	}
+  "name": "ultra-coaching",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "@neondatabase/serverless": "^0.10.0",
+    "drizzle-orm": "^0.38.0",
+    "next": "16.2.7",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "drizzle-kit": "^0.29.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.7",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
 }
